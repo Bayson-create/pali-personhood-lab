@@ -1,0 +1,3892 @@
+{
+  "schema_version": "personhood-evidence-index/0.1",
+  "generated_at": "2026-08-12T10:14:54.636243+00:00",
+  "search_index": "D:\\WSL\\Ubuntu-22.04\\search-artifacts\\semantic-v1-lexical-p0b-20260811",
+  "index_status": {
+    "loaded": true,
+    "index_version": "semantic-v1-lexical-p0b-20260811",
+    "record_count": 778998,
+    "semantic": {
+      "enabled": false,
+      "model": null,
+      "dimension": null
+    },
+    "dictionary": {
+      "available": false,
+      "mode": "on-demand"
+    }
+  },
+  "method": "HybridEngine.search; lexical results remain valid when semantic index/model is unavailable",
+  "coverage_scope": "全 V4 可检索覆盖；经律论原典主张与后期系统化解释分层",
+  "claims": [
+    {
+      "id": "sn35.23.six-sense-bases",
+      "layer": "canonical",
+      "uid": "sn35.23",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "一切 六处",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh07t_nrf:1099",
+              "work_id": "abh07t_nrf",
+              "row_id": 1099,
+              "paranum": "67",
+              "anchor": "67",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0105t_nrf:299",
+              "work_id": "s0105t_nrf",
+              "row_id": 299,
+              "paranum": "299",
+              "anchor": "299",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0305t_tik:358",
+              "work_id": "s0305t_tik",
+              "row_id": 358,
+              "paranum": "358",
+              "anchor": "358",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "相应部复注 Saṃyuttanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh07t_nrf:258",
+              "work_id": "abh07t_nrf",
+              "row_id": 258,
+              "paranum": "258",
+              "anchor": "258",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0301n_nrf:1279",
+              "work_id": "e0301n_nrf",
+              "row_id": 1279,
+              "paranum": "1279",
+              "anchor": "1279",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "the all six sense bases",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01a_att:160",
+              "work_id": "abh01a_att",
+              "row_id": 160,
+              "paranum": "160",
+              "anchor": "160",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:46",
+              "work_id": "abh01a_att",
+              "row_id": 46,
+              "paranum": "46",
+              "anchor": "46",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:548",
+              "work_id": "abh01a_att",
+              "row_id": 548,
+              "paranum": "20",
+              "anchor": "20",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01t_tik:45",
+              "work_id": "abh01t_tik",
+              "row_id": 45,
+              "paranum": "45",
+              "anchor": "45",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:179",
+              "work_id": "abh02a_att",
+              "row_id": 179,
+              "paranum": "179",
+              "anchor": "179",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "sabba salayatana",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02a_att:715",
+              "work_id": "abh02a_att",
+              "row_id": 715,
+              "paranum": "715",
+              "anchor": "715",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:837",
+              "work_id": "abh02a_att",
+              "row_id": 837,
+              "paranum": "837",
+              "anchor": "837",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:873",
+              "work_id": "abh02a_att",
+              "row_id": 873,
+              "paranum": "873",
+              "anchor": "873",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:874",
+              "work_id": "abh02a_att",
+              "row_id": 874,
+              "paranum": "874",
+              "anchor": "874",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1489",
+              "work_id": "abh02t_tik",
+              "row_id": 1489,
+              "paranum": "1489",
+              "anchor": "1489",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "所谓一切的认知边界由六内处与六外处等所缘条件界定。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "sn12.23.contact-feeling-craving",
+      "layer": "canonical",
+      "uid": "sn12.23",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "触 受 爱",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02a_att:858",
+              "work_id": "abh02a_att",
+              "row_id": 858,
+              "paranum": "858",
+              "anchor": "858",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02m_mul:1072",
+              "work_id": "abh02m_mul",
+              "row_id": 1072,
+              "paranum": "272",
+              "anchor": "272",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh02m_mul:1094",
+              "work_id": "abh02m_mul",
+              "row_id": 1094,
+              "paranum": "274",
+              "anchor": "274",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh02m_mul:1105",
+              "work_id": "abh02m_mul",
+              "row_id": 1105,
+              "paranum": "276",
+              "anchor": "276",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh02m_mul:1119",
+              "work_id": "abh02m_mul",
+              "row_id": 1119,
+              "paranum": "278",
+              "anchor": "278",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "contact feeling craving",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01m_mul:2140",
+              "work_id": "abh01m_mul",
+              "row_id": 2140,
+              "paranum": "1343",
+              "anchor": "1343",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:532",
+              "work_id": "abh02a_att",
+              "row_id": 532,
+              "paranum": "532",
+              "anchor": "532",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:535",
+              "work_id": "abh02a_att",
+              "row_id": 535,
+              "paranum": "535",
+              "anchor": "535",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:821",
+              "work_id": "abh02a_att",
+              "row_id": 821,
+              "paranum": "821",
+              "anchor": "821",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:832",
+              "work_id": "abh02a_att",
+              "row_id": 832,
+              "paranum": "832",
+              "anchor": "832",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "phassa vedana tanha",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0101n_mul:988",
+              "work_id": "e0101n_mul",
+              "row_id": 988,
+              "paranum": "128",
+              "anchor": "128",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:e0102n_mul:1273",
+              "work_id": "e0102n_mul",
+              "row_id": 1273,
+              "paranum": "1273",
+              "anchor": "1273",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:s0101t_tik:532",
+              "work_id": "s0101t_tik",
+              "row_id": 532,
+              "paranum": "532",
+              "anchor": "532",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0104t_nrf:1263",
+              "work_id": "s0104t_nrf",
+              "row_id": 1263,
+              "paranum": "1263",
+              "anchor": "1263",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:980",
+              "work_id": "s0201a_att",
+              "row_id": 980,
+              "paranum": "980",
+              "anchor": "980",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "触为条件而有受，受为条件而有爱；条件链可在局部止息。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "mn18.contact-proliferation",
+      "layer": "canonical",
+      "uid": "mn18",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "触 受 想 寻思 戏论",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0201a_att:1601",
+              "work_id": "s0201a_att",
+              "row_id": 1601,
+              "paranum": "1601",
+              "anchor": "1601",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:1602",
+              "work_id": "s0201a_att",
+              "row_id": 1602,
+              "paranum": "1602",
+              "anchor": "1602",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:s0201t_tik:1442",
+              "work_id": "s0201t_tik",
+              "row_id": 1442,
+              "paranum": "1442",
+              "anchor": "1442",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "中部复注 Majjhimanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0201t_tik:1441",
+              "work_id": "s0201t_tik",
+              "row_id": 1441,
+              "paranum": "1441",
+              "anchor": "1441",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "中部复注 Majjhimanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0104t_nrf:1063",
+              "work_id": "s0104t_nrf",
+              "row_id": 1063,
+              "paranum": "36",
+              "anchor": "36",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "contact feeling perception thought proliferation",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0201a_att:1601",
+              "work_id": "s0201a_att",
+              "row_id": 1601,
+              "paranum": "1601",
+              "anchor": "1601",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:1602",
+              "work_id": "s0201a_att",
+              "row_id": 1602,
+              "paranum": "1602",
+              "anchor": "1602",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:s0201m_mul:671",
+              "work_id": "s0201m_mul",
+              "row_id": 671,
+              "paranum": "671",
+              "anchor": "671",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "中部 Majjhimanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0201m_mul:672",
+              "work_id": "s0201m_mul",
+              "row_id": 672,
+              "paranum": "672",
+              "anchor": "672",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "中部 Majjhimanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0201t_tik:127",
+              "work_id": "s0201t_tik",
+              "row_id": 127,
+              "paranum": "127",
+              "anchor": "127",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "中部复注 Majjhimanikāya-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "phassa vedana sanna vitakka papanca",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0101n_mul:1004",
+              "work_id": "e0101n_mul",
+              "row_id": 1004,
+              "paranum": "132",
+              "anchor": "132",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:e0102n_mul:1273",
+              "work_id": "e0102n_mul",
+              "row_id": 1273,
+              "paranum": "1273",
+              "anchor": "1273",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:s0515a_att:624",
+              "work_id": "s0515a_att",
+              "row_id": 624,
+              "paranum": "624",
+              "anchor": "624",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:s0517a_att:793",
+              "work_id": "s0517a_att",
+              "row_id": 793,
+              "paranum": "793",
+              "anchor": "793",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:vin01a_att:378",
+              "work_id": "vin01a_att",
+              "row_id": 378,
+              "paranum": "378",
+              "anchor": "378",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "律藏义注 Vinayapiṭaka-Aṭṭhakathā(Samantapāsādikā)"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "MN 18 说明从触、受、想、寻思到戏论的展开。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "sn22.59.not-self",
+      "layer": "canonical",
+      "uid": "sn22.59",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "五蕴 无我",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0102n_mul:1295",
+              "work_id": "e0102n_mul",
+              "row_id": 1295,
+              "paranum": "697",
+              "anchor": "697",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:e0103n_att:413",
+              "work_id": "e0103n_att",
+              "row_id": 413,
+              "paranum": "413",
+              "anchor": "413",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:401",
+              "work_id": "e0401n_nrf",
+              "row_id": 401,
+              "paranum": "401",
+              "anchor": "401",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0502a_att:3002",
+              "work_id": "s0502a_att",
+              "row_id": 3002,
+              "paranum": "3002",
+              "anchor": "3002",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:s0515a_att:1047",
+              "work_id": "s0515a_att",
+              "row_id": 1047,
+              "paranum": "1047",
+              "anchor": "1047",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "five aggregates not self",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01a_att:1308",
+              "work_id": "abh01a_att",
+              "row_id": 1308,
+              "paranum": "1308",
+              "anchor": "1308",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1316",
+              "work_id": "abh01a_att",
+              "row_id": 1316,
+              "paranum": "1316",
+              "anchor": "1316",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1826",
+              "work_id": "abh01a_att",
+              "row_id": 1826,
+              "paranum": "1826",
+              "anchor": "1826",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1938",
+              "work_id": "abh01a_att",
+              "row_id": 1938,
+              "paranum": "1320",
+              "anchor": "1320",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:893",
+              "work_id": "abh01a_att",
+              "row_id": 893,
+              "paranum": "893",
+              "anchor": "893",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "panca khandha anatta",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0101t_tik:255",
+              "work_id": "s0101t_tik",
+              "row_id": 255,
+              "paranum": "255",
+              "anchor": "255",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh03a_att:617",
+              "work_id": "abh03a_att",
+              "row_id": 617,
+              "paranum": "617",
+              "anchor": "617",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh06t_nrf:9067",
+              "work_id": "abh06t_nrf",
+              "row_id": 9067,
+              "paranum": "9067",
+              "anchor": "9067",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh09t_nrf:2327",
+              "work_id": "abh09t_nrf",
+              "row_id": 2327,
+              "paranum": "2327",
+              "anchor": "2327",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:130",
+              "work_id": "e0401n_nrf",
+              "row_id": 130,
+              "paranum": "66",
+              "anchor": "66",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "五蕴应观察为无常、苦、非我，不构成固定人格实体。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "mn10.mindfulness",
+      "layer": "canonical",
+      "uid": "mn10",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "正念 明觉 身受心法",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0301t_tik:830",
+              "work_id": "s0301t_tik",
+              "row_id": 830,
+              "paranum": "830",
+              "anchor": "830",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "相应部复注 Saṃyuttanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0517a_att:1995",
+              "work_id": "s0517a_att",
+              "row_id": 1995,
+              "paranum": "43",
+              "anchor": "43",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1914",
+              "work_id": "abh02t_tik",
+              "row_id": 1914,
+              "paranum": "537",
+              "anchor": "537",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh04t_nrf:115",
+              "work_id": "abh04t_nrf",
+              "row_id": 115,
+              "paranum": "115",
+              "anchor": "115",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0517a_att:1003",
+              "work_id": "s0517a_att",
+              "row_id": 1003,
+              "paranum": "65",
+              "anchor": "65",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "mindfulness clear comprehension body feelings mind dhammas",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0101n_mul:780",
+              "work_id": "e0101n_mul",
+              "row_id": 780,
+              "paranum": "780",
+              "anchor": "780",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:s0520m_nrf:514",
+              "work_id": "s0520m_nrf",
+              "row_id": 514,
+              "paranum": "514",
+              "anchor": "514",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "小部 Khuddakanikāya"
+              ]
+            },
+            {
+              "locator": "v4:abh01m_mul:759",
+              "work_id": "abh01m_mul",
+              "row_id": 759,
+              "paranum": "277",
+              "anchor": "277",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:s0517a_att:1995",
+              "work_id": "s0517a_att",
+              "row_id": 1995,
+              "paranum": "43",
+              "anchor": "43",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:958",
+              "work_id": "abh02a_att",
+              "row_id": 958,
+              "paranum": "958",
+              "anchor": "958",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "sati sampajanna",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh08t_nrf:1143",
+              "work_id": "abh08t_nrf",
+              "row_id": 1143,
+              "paranum": "1143",
+              "anchor": "1143",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e1208n_nrf:3452",
+              "work_id": "e1208n_nrf",
+              "row_id": 3452,
+              "paranum": "3452",
+              "anchor": "3452",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "锡兰佛教文献集 Sihaḷa-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0302a_att:444",
+              "work_id": "s0302a_att",
+              "row_id": 444,
+              "paranum": "73",
+              "anchor": "73",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "相应部义注 Saṃyuttanikāya-Aṭṭhakathā(Sāratthappakāsinī)"
+              ]
+            },
+            {
+              "locator": "v4:s0402a_att:284",
+              "work_id": "s0402a_att",
+              "row_id": 284,
+              "paranum": "180",
+              "anchor": "180",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "增支部义注 Aṅguttaranikāya-Aṭṭhakathā(Manorathapūraṇī)"
+              ]
+            },
+            {
+              "locator": "v4:s0515a_att:629",
+              "work_id": "s0515a_att",
+              "row_id": 629,
+              "paranum": "629",
+              "anchor": "629",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "四念处与明觉提供对身、受、心、法的观察训练。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "dn22.satipatthana",
+      "layer": "canonical",
+      "uid": "dn22",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "四念处 生起 灭去",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0201a_att:1054",
+              "work_id": "s0201a_att",
+              "row_id": 1054,
+              "paranum": "1054",
+              "anchor": "1054",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:369",
+              "work_id": "e0401n_nrf",
+              "row_id": 369,
+              "paranum": "168",
+              "anchor": "168",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0102a_att:1353",
+              "work_id": "s0102a_att",
+              "row_id": 1353,
+              "paranum": "1353",
+              "anchor": "1353",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "长部义注 Dīghanikāya-Aṭṭhakathā(Sumaṅgalavilāsinī)"
+              ]
+            },
+            {
+              "locator": "v4:s0305a_att:309",
+              "work_id": "s0305a_att",
+              "row_id": 309,
+              "paranum": "309",
+              "anchor": "309",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "相应部义注 Saṃyuttanikāya-Aṭṭhakathā(Sāratthappakāsinī)"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:1596",
+              "work_id": "s0201a_att",
+              "row_id": 1596,
+              "paranum": "1596",
+              "anchor": "1596",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "satipatthana arising passing away",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01a_att:1822",
+              "work_id": "abh01a_att",
+              "row_id": 1822,
+              "paranum": "1822",
+              "anchor": "1822",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01t_tik:367",
+              "work_id": "abh01t_tik",
+              "row_id": 367,
+              "paranum": "367",
+              "anchor": "367",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh01t_tik:536",
+              "work_id": "abh01t_tik",
+              "row_id": 536,
+              "paranum": "636",
+              "anchor": "636",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:1157",
+              "work_id": "abh02a_att",
+              "row_id": 1157,
+              "paranum": "1157",
+              "anchor": "1157",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:125",
+              "work_id": "abh02a_att",
+              "row_id": 125,
+              "paranum": "125",
+              "anchor": "125",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "satipatthana samudaya vaya",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02a_att:179",
+              "work_id": "abh02a_att",
+              "row_id": 179,
+              "paranum": "179",
+              "anchor": "179",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh06t_nrf:6508",
+              "work_id": "abh06t_nrf",
+              "row_id": 6508,
+              "paranum": "6508",
+              "anchor": "6508",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh09t_nrf:1757",
+              "work_id": "abh09t_nrf",
+              "row_id": 1757,
+              "paranum": "1757",
+              "anchor": "1757",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0102n_mul:535",
+              "work_id": "e0102n_mul",
+              "row_id": 535,
+              "paranum": "516",
+              "anchor": "516",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:e0104n_att:789",
+              "work_id": "e0104n_att",
+              "row_id": 789,
+              "paranum": "789",
+              "anchor": "789",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "四念处以生起与灭去观察条件过程，而非测量固定性格。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "sn12.20.dependent-origination",
+      "layer": "canonical",
+      "uid": "sn12.20",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "缘起 此有故彼有",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh07t_nrf:1494",
+              "work_id": "abh07t_nrf",
+              "row_id": 1494,
+              "paranum": "3",
+              "anchor": "3",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0102t_tik:180",
+              "work_id": "s0102t_tik",
+              "row_id": 180,
+              "paranum": "59",
+              "anchor": "59",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0102t_tik:292",
+              "work_id": "s0102t_tik",
+              "row_id": 292,
+              "paranum": "292",
+              "anchor": "292",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0503a_att:111",
+              "work_id": "s0503a_att",
+              "row_id": 111,
+              "paranum": "111",
+              "anchor": "111",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:s0515m_mul:1945",
+              "work_id": "s0515m_mul",
+              "row_id": 1945,
+              "paranum": "1945",
+              "anchor": "1945",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "小部 Khuddakanikāya"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "dependent origination when this is that is",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01t_tik:41",
+              "work_id": "abh01t_tik",
+              "row_id": 41,
+              "paranum": "41",
+              "anchor": "41",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh01t_tik:685",
+              "work_id": "abh01t_tik",
+              "row_id": 685,
+              "paranum": "1434",
+              "anchor": "1434",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:1729",
+              "work_id": "abh02a_att",
+              "row_id": 1729,
+              "paranum": "806",
+              "anchor": "806",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:871",
+              "work_id": "abh02a_att",
+              "row_id": 871,
+              "paranum": "871",
+              "anchor": "871",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1220",
+              "work_id": "abh02t_tik",
+              "row_id": 1220,
+              "paranum": "1220",
+              "anchor": "1220",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "paticcasamuppada imasmim sati",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0301n_nrf:1276",
+              "work_id": "e0301n_nrf",
+              "row_id": 1276,
+              "paranum": "1276",
+              "anchor": "1276",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0102t_tik:180",
+              "work_id": "s0102t_tik",
+              "row_id": 180,
+              "paranum": "59",
+              "anchor": "59",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0301n_nrf:1302",
+              "work_id": "e0301n_nrf",
+              "row_id": 1302,
+              "paranum": "1302",
+              "anchor": "1302",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:343",
+              "work_id": "e0401n_nrf",
+              "row_id": 343,
+              "paranum": "166",
+              "anchor": "166",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:392",
+              "work_id": "e0401n_nrf",
+              "row_id": 392,
+              "paranum": "392",
+              "anchor": "392",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "缘起以条件关系说明过程的出现与止息。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "sn22.79.formations",
+      "layer": "canonical",
+      "uid": "sn22.79",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "行 蕴 造作",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0301n_nrf:1235",
+              "work_id": "e0301n_nrf",
+              "row_id": 1235,
+              "paranum": "165",
+              "anchor": "165",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:2205",
+              "work_id": "s0201a_att",
+              "row_id": 2205,
+              "paranum": "2205",
+              "anchor": "2205",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1002",
+              "work_id": "abh01a_att",
+              "row_id": 1002,
+              "paranum": "1002",
+              "anchor": "1002",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:111",
+              "work_id": "abh02a_att",
+              "row_id": 111,
+              "paranum": "111",
+              "anchor": "111",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:74",
+              "work_id": "abh02a_att",
+              "row_id": 74,
+              "paranum": "20",
+              "anchor": "20",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "formations aggregate intention",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01m_mul:456",
+              "work_id": "abh01m_mul",
+              "row_id": 456,
+              "paranum": "62",
+              "anchor": "62",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh01m_mul:517",
+              "work_id": "abh01m_mul",
+              "row_id": 517,
+              "paranum": "114",
+              "anchor": "114",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh01m_mul:559",
+              "work_id": "abh01m_mul",
+              "row_id": 559,
+              "paranum": "148",
+              "anchor": "148",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh01m_mul:569",
+              "work_id": "abh01m_mul",
+              "row_id": 569,
+              "paranum": "155",
+              "anchor": "155",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:abh01m_mul:576",
+              "work_id": "abh01m_mul",
+              "row_id": 576,
+              "paranum": "158",
+              "anchor": "158",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "sankhara cetana",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02a_att:74",
+              "work_id": "abh02a_att",
+              "row_id": 74,
+              "paranum": "20",
+              "anchor": "20",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:823",
+              "work_id": "abh02a_att",
+              "row_id": 823,
+              "paranum": "823",
+              "anchor": "823",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:824",
+              "work_id": "abh02a_att",
+              "row_id": 824,
+              "paranum": "824",
+              "anchor": "824",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:826",
+              "work_id": "abh02a_att",
+              "row_id": 826,
+              "paranum": "826",
+              "anchor": "826",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02m_mul:44",
+              "work_id": "abh02m_mul",
+              "row_id": 44,
+              "paranum": "21",
+              "anchor": "21",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "行蕴涉及条件性的造作与意向，不是永恒性格字段。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "mn2.mental-defilements",
+      "layer": "canonical",
+      "uid": "mn2",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "漏 烦恼 如理作意",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh09t_nrf:1900",
+              "work_id": "abh09t_nrf",
+              "row_id": 1900,
+              "paranum": "1900",
+              "anchor": "1900",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0103n_att:849",
+              "work_id": "e0103n_att",
+              "row_id": 849,
+              "paranum": "849",
+              "anchor": "849",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:s0101t_tik:129",
+              "work_id": "s0101t_tik",
+              "row_id": 129,
+              "paranum": "129",
+              "anchor": "129",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0104t_nrf:1280",
+              "work_id": "s0104t_nrf",
+              "row_id": 1280,
+              "paranum": "1280",
+              "anchor": "1280",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0104t_nrf:428",
+              "work_id": "s0104t_nrf",
+              "row_id": 428,
+              "paranum": "428",
+              "anchor": "428",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "mental effluents wise attention",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh08t_nrf:1179",
+              "work_id": "abh08t_nrf",
+              "row_id": 1179,
+              "paranum": "1179",
+              "anchor": "1179",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh08t_nrf:871",
+              "work_id": "abh08t_nrf",
+              "row_id": 871,
+              "paranum": "871",
+              "anchor": "871",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh09t_nrf:1315",
+              "work_id": "abh09t_nrf",
+              "row_id": 1315,
+              "paranum": "1315",
+              "anchor": "1315",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0101n_mul:707",
+              "work_id": "e0101n_mul",
+              "row_id": 707,
+              "paranum": "707",
+              "anchor": "707",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:e0104n_att:1209",
+              "work_id": "e0104n_att",
+              "row_id": 1209,
+              "paranum": "681",
+              "anchor": "681",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "asava yoniso manasikara",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0201a_att:312",
+              "work_id": "s0201a_att",
+              "row_id": 312,
+              "paranum": "312",
+              "anchor": "312",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:e0104n_att:793",
+              "work_id": "e0104n_att",
+              "row_id": 793,
+              "paranum": "793",
+              "anchor": "793",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:s0102m_mul:127",
+              "work_id": "s0102m_mul",
+              "row_id": 127,
+              "paranum": "127",
+              "anchor": "127",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "长部 Dīghanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0102m_mul:128",
+              "work_id": "s0102m_mul",
+              "row_id": 128,
+              "paranum": "128",
+              "anchor": "128",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "长部 Dīghanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0102m_mul:129",
+              "work_id": "s0102m_mul",
+              "row_id": 129,
+              "paranum": "129",
+              "anchor": "129",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "长部 Dīghanikāya"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "如理作意与不如理作意影响烦恼是否继续流转。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "sn35.95.guard-sense-doors",
+      "layer": "canonical",
+      "uid": "sn35.95",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "守护 根门 正念",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02t_tik:1872",
+              "work_id": "abh02t_tik",
+              "row_id": 1872,
+              "paranum": "508",
+              "anchor": "508",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0101t_tik:242",
+              "work_id": "s0101t_tik",
+              "row_id": 242,
+              "paranum": "242",
+              "anchor": "242",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0104t_nrf:699",
+              "work_id": "s0104t_nrf",
+              "row_id": 699,
+              "paranum": "699",
+              "anchor": "699",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0201m_mul:163",
+              "work_id": "s0201m_mul",
+              "row_id": 163,
+              "paranum": "163",
+              "anchor": "163",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "中部 Majjhimanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0303t_tik:15",
+              "work_id": "s0303t_tik",
+              "row_id": 15,
+              "paranum": "15",
+              "anchor": "15",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "相应部复注 Saṃyuttanikāya-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "guard sense doors mindfulness",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0103n_att:111",
+              "work_id": "e0103n_att",
+              "row_id": 111,
+              "paranum": "111",
+              "anchor": "111",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "清净道论 Visuddhimagga"
+              ]
+            },
+            {
+              "locator": "v4:s0304a_att:507",
+              "work_id": "s0304a_att",
+              "row_id": 507,
+              "paranum": "507",
+              "anchor": "507",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "相应部义注 Saṃyuttanikāya-Aṭṭhakathā(Sāratthappakāsinī)"
+              ]
+            },
+            {
+              "locator": "v4:s0502a_att:3280",
+              "work_id": "s0502a_att",
+              "row_id": 3280,
+              "paranum": "3280",
+              "anchor": "3280",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:s0505a_att:209",
+              "work_id": "s0505a_att",
+              "row_id": 209,
+              "paranum": "209",
+              "anchor": "209",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:s0508a2_att:1996",
+              "work_id": "s0508a2_att",
+              "row_id": 1996,
+              "paranum": "1996",
+              "anchor": "1996",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "小部义注 Khuddakanikāya-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "indriyesu guttadvara sati",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0201m_mul:1345",
+              "work_id": "s0201m_mul",
+              "row_id": 1345,
+              "paranum": "421",
+              "anchor": "421",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "中部 Majjhimanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0201m_mul:163",
+              "work_id": "s0201m_mul",
+              "row_id": 163,
+              "paranum": "163",
+              "anchor": "163",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "中部 Majjhimanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0203m_mul:159",
+              "work_id": "s0203m_mul",
+              "row_id": 159,
+              "paranum": "159",
+              "anchor": "159",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "中部 Majjhimanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0304m_mul:1057",
+              "work_id": "s0304m_mul",
+              "row_id": 1057,
+              "paranum": "1057",
+              "anchor": "1057",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "相应部 Saṃyuttanikāya"
+              ]
+            },
+            {
+              "locator": "v4:s0304m_mul:659",
+              "work_id": "s0304m_mul",
+              "row_id": 659,
+              "paranum": "659",
+              "anchor": "659",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "相应部 Saṃyuttanikāya"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "根门守护是互动反应前可训练的条件。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "an3.65.kalama",
+      "layer": "canonical",
+      "uid": "an3.65",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "贪 嗔 痴 离",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01a_att:1300",
+              "work_id": "abh01a_att",
+              "row_id": 1300,
+              "paranum": "350",
+              "anchor": "350",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:2115",
+              "work_id": "abh02a_att",
+              "row_id": 2115,
+              "paranum": "2115",
+              "anchor": "2115",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh03a_att:1956",
+              "work_id": "abh03a_att",
+              "row_id": 1956,
+              "paranum": "1956",
+              "anchor": "1956",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh04t_nrf:170",
+              "work_id": "abh04t_nrf",
+              "row_id": 170,
+              "paranum": "170",
+              "anchor": "170",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh08t_nrf:128",
+              "work_id": "abh08t_nrf",
+              "row_id": 128,
+              "paranum": "108-9",
+              "anchor": "108-9",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "greed hate delusion abandon",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh03m3_mul:2480",
+              "work_id": "abh03m3_mul",
+              "row_id": 2480,
+              "paranum": "665",
+              "anchor": "665",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "论藏 Abhidhammapiṭaka"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:405",
+              "work_id": "e0401n_nrf",
+              "row_id": 405,
+              "paranum": "405",
+              "anchor": "405",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0501t_nrf:1419",
+              "work_id": "s0501t_nrf",
+              "row_id": 1419,
+              "paranum": "1419",
+              "anchor": "1419",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "小部复注 Khuddakanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0517m_mul:1854",
+              "work_id": "s0517m_mul",
+              "row_id": 1854,
+              "paranum": "1854",
+              "anchor": "1854",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "小部 Khuddakanikāya"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:616",
+              "work_id": "abh01a_att",
+              "row_id": 616,
+              "paranum": "616",
+              "anchor": "616",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "lobha dosa moha",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:s0101t_tik:274",
+              "work_id": "s0101t_tik",
+              "row_id": 274,
+              "paranum": "274",
+              "anchor": "274",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0403m2_mul:252",
+              "work_id": "s0403m2_mul",
+              "row_id": 252,
+              "paranum": "39",
+              "anchor": "39",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "增支部 Aṅguttaranikāya"
+              ]
+            },
+            {
+              "locator": "v4:vin01a_att:425",
+              "work_id": "vin01a_att",
+              "row_id": 425,
+              "paranum": "425",
+              "anchor": "425",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "律藏义注 Vinayapiṭaka-Aṭṭhakathā(Samantapāsādikā)"
+              ]
+            },
+            {
+              "locator": "v4:e0501n_nrf:10",
+              "work_id": "e0501n_nrf",
+              "row_id": 10,
+              "paranum": "10",
+              "anchor": "10",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0301t_tik:377",
+              "work_id": "s0301t_tik",
+              "row_id": 377,
+              "paranum": "33",
+              "anchor": "33",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "相应部复注 Saṃyuttanikāya-Ṭīkā"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "贪、嗔、痴作为可现起、可观察、可训练改变的条件。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "mn21.ill-will",
+      "layer": "canonical",
+      "uid": "mn21",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "嗔 恶意 慈心",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh09t_nrf:1956",
+              "work_id": "abh09t_nrf",
+              "row_id": 1956,
+              "paranum": "1956",
+              "anchor": "1956",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:1686",
+              "work_id": "s0201a_att",
+              "row_id": 1686,
+              "paranum": "227",
+              "anchor": "227",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:s0515m_mul:2182",
+              "work_id": "s0515m_mul",
+              "row_id": 2182,
+              "paranum": "2182",
+              "anchor": "2182",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "小部 Khuddakanikāya"
+              ]
+            },
+            {
+              "locator": "v4:vin02a3_att:593",
+              "work_id": "vin02a3_att",
+              "row_id": 593,
+              "paranum": "400",
+              "anchor": "400",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "律藏义注 Vinayapiṭaka-Aṭṭhakathā(Samantapāsādikā)"
+              ]
+            },
+            {
+              "locator": "v4:s0402m2_mul:605",
+              "work_id": "s0402m2_mul",
+              "row_id": 605,
+              "paranum": "605",
+              "anchor": "605",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "三藏经文 Tipiṭaka Mūla",
+                "经藏 Suttapiṭaka",
+                "增支部 Aṅguttaranikāya"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "ill will loving kindness",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01a_att:1180",
+              "work_id": "abh01a_att",
+              "row_id": 1180,
+              "paranum": "1180",
+              "anchor": "1180",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1184",
+              "work_id": "abh01a_att",
+              "row_id": 1184,
+              "paranum": "1184",
+              "anchor": "1184",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1185",
+              "work_id": "abh01a_att",
+              "row_id": 1185,
+              "paranum": "1185",
+              "anchor": "1185",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1186",
+              "work_id": "abh01a_att",
+              "row_id": 1186,
+              "paranum": "1186",
+              "anchor": "1186",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1187",
+              "work_id": "abh01a_att",
+              "row_id": 1187,
+              "paranum": "1187",
+              "anchor": "1187",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "byapada metta",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e1010n_nrf:703",
+              "work_id": "e1010n_nrf",
+              "row_id": 703,
+              "paranum": "703",
+              "anchor": "703",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "处世格言集 Nīti-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:abh04t_nrf:248",
+              "work_id": "abh04t_nrf",
+              "row_id": 248,
+              "paranum": "248",
+              "anchor": "248",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh06t_nrf:5982",
+              "work_id": "abh06t_nrf",
+              "row_id": 5982,
+              "paranum": "5982",
+              "anchor": "5982",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:123",
+              "work_id": "e0401n_nrf",
+              "row_id": 123,
+              "paranum": "59",
+              "anchor": "59",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0810n_nrf:40",
+              "work_id": "e0810n_nrf",
+              "row_id": 40,
+              "paranum": "8",
+              "anchor": "8",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "巴利语法汇集 Byākaraṇa-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "敌意与慈心的对治属于训练路径，不等同于固定人格类型。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "sn22.47.aggregates-conditions",
+      "layer": "canonical",
+      "uid": "sn22.47",
+      "queries": [
+        {
+          "language": "zh",
+          "query": "五取蕴 集因",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0301n_nrf:996",
+              "work_id": "e0301n_nrf",
+              "row_id": 996,
+              "paranum": "996",
+              "anchor": "996",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:s0103t_tik:299",
+              "work_id": "s0103t_tik",
+              "row_id": 299,
+              "paranum": "299",
+              "anchor": "299",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0201t_tik:2099",
+              "work_id": "s0201t_tik",
+              "row_id": 2099,
+              "paranum": "2099",
+              "anchor": "2099",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "中部复注 Majjhimanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0402t_tik:1276",
+              "work_id": "s0402t_tik",
+              "row_id": 1276,
+              "paranum": "1276",
+              "anchor": "1276",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "增支部复注 Aṅguttaranikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0403t_tik:792",
+              "work_id": "s0403t_tik",
+              "row_id": 792,
+              "paranum": "792",
+              "anchor": "792",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "增支部复注 Aṅguttaranikāya-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "aggregates conditions arising",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01t_tik:461",
+              "work_id": "abh01t_tik",
+              "row_id": 461,
+              "paranum": "461",
+              "anchor": "461",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:104",
+              "work_id": "abh02a_att",
+              "row_id": 104,
+              "paranum": "104",
+              "anchor": "104",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02a_att:86",
+              "work_id": "abh02a_att",
+              "row_id": 86,
+              "paranum": "86",
+              "anchor": "86",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1159",
+              "work_id": "abh02t_tik",
+              "row_id": 1159,
+              "paranum": "1159",
+              "anchor": "1159",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1170",
+              "work_id": "abh02t_tik",
+              "row_id": 1170,
+              "paranum": "1170",
+              "anchor": "1170",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "upadanakkhandha samudaya",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02a_att:521",
+              "work_id": "abh02a_att",
+              "row_id": 521,
+              "paranum": "521",
+              "anchor": "521",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1269",
+              "work_id": "abh02t_tik",
+              "row_id": 1269,
+              "paranum": "150",
+              "anchor": "150",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh03t_tik:823",
+              "work_id": "abh03t_tik",
+              "row_id": 823,
+              "paranum": "878",
+              "anchor": "878",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh05t_nrf:80",
+              "work_id": "abh05t_nrf",
+              "row_id": 80,
+              "paranum": "80",
+              "anchor": "80",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh05t_nrf:867",
+              "work_id": "abh05t_nrf",
+              "row_id": 867,
+              "paranum": "878",
+              "anchor": "878",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "五取蕴依条件集起并可依条件灭去。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "abhidhamma.citta-vithi",
+      "layer": "abhidhamma",
+      "uid": null,
+      "queries": [
+        {
+          "language": "zh",
+          "query": "心路 速行 随眠",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh07t_nrf:1131",
+              "work_id": "abh07t_nrf",
+              "row_id": 1131,
+              "paranum": "1131",
+              "anchor": "1131",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:202",
+              "work_id": "e0401n_nrf",
+              "row_id": 202,
+              "paranum": "132",
+              "anchor": "132",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0301n_nrf:878",
+              "work_id": "e0301n_nrf",
+              "row_id": 878,
+              "paranum": "878",
+              "anchor": "878",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0301n_nrf:734",
+              "work_id": "e0301n_nrf",
+              "row_id": 734,
+              "paranum": "141",
+              "anchor": "141",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:269",
+              "work_id": "e0401n_nrf",
+              "row_id": 269,
+              "paranum": "269",
+              "anchor": "269",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "citta vithi javana anusaya",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0401n_nrf:269",
+              "work_id": "e0401n_nrf",
+              "row_id": 269,
+              "paranum": "269",
+              "anchor": "269",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:616",
+              "work_id": "abh01a_att",
+              "row_id": 616,
+              "paranum": "616",
+              "anchor": "616",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:1351",
+              "work_id": "abh02t_tik",
+              "row_id": 1351,
+              "paranum": "1351",
+              "anchor": "1351",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh08t_nrf:1460",
+              "work_id": "abh08t_nrf",
+              "row_id": 1460,
+              "paranum": "1460",
+              "anchor": "1460",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh08t_nrf:851",
+              "work_id": "abh08t_nrf",
+              "row_id": 851,
+              "paranum": "851",
+              "anchor": "851",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "citta vithi javana",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e0301n_nrf:415",
+              "work_id": "e0301n_nrf",
+              "row_id": 415,
+              "paranum": "75",
+              "anchor": "75",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0301n_nrf:677",
+              "work_id": "e0301n_nrf",
+              "row_id": 677,
+              "paranum": "677",
+              "anchor": "677",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:203",
+              "work_id": "e0401n_nrf",
+              "row_id": 203,
+              "paranum": "133",
+              "anchor": "133",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0301n_nrf:978",
+              "work_id": "e0301n_nrf",
+              "row_id": 978,
+              "paranum": "978",
+              "anchor": "978",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:93",
+              "work_id": "e0401n_nrf",
+              "row_id": 93,
+              "paranum": "36",
+              "anchor": "36",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "阿毗达磨心路与随眠视图作为后期上座部系统化解释单独显示。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "commentary.visuddhimagga-habits",
+      "layer": "commentary",
+      "uid": null,
+      "queries": [
+        {
+          "language": "zh",
+          "query": "清净道论 习性 行为",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh07t_nrf:1596",
+              "work_id": "abh07t_nrf",
+              "row_id": 1596,
+              "paranum": "28",
+              "anchor": "28",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0104t_nrf:100",
+              "work_id": "s0104t_nrf",
+              "row_id": 100,
+              "paranum": "100",
+              "anchor": "100",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0105t_nrf:376",
+              "work_id": "s0105t_nrf",
+              "row_id": 376,
+              "paranum": "376",
+              "anchor": "376",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "经藏复注 Suttapiṭaka-Ṭīkā",
+                "长部复注 Dīghanikāya-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0203a_att:369",
+              "work_id": "s0203a_att",
+              "row_id": 369,
+              "paranum": "140",
+              "anchor": "140",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:vin02a1_att:210",
+              "work_id": "vin02a1_att",
+              "row_id": 210,
+              "paranum": "210",
+              "anchor": "210",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "律藏义注 Vinayapiṭaka-Aṭṭhakathā(Samantapāsādikā)"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "Visuddhimagga temperament habits",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh01a_att:1070",
+              "work_id": "abh01a_att",
+              "row_id": 1070,
+              "paranum": "1070",
+              "anchor": "1070",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh01a_att:1167",
+              "work_id": "abh01a_att",
+              "row_id": 1167,
+              "paranum": "1167",
+              "anchor": "1167",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh07t_nrf:1596",
+              "work_id": "abh07t_nrf",
+              "row_id": 1596,
+              "paranum": "28",
+              "anchor": "28",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh08t_nrf:1888",
+              "work_id": "abh08t_nrf",
+              "row_id": 1888,
+              "paranum": "800-2",
+              "anchor": "800-2",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:e0401n_nrf:380",
+              "work_id": "e0401n_nrf",
+              "row_id": 380,
+              "paranum": "380",
+              "anchor": "380",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "雷迪西亚多著作集 Leḍī-Sayāḍo-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "pali",
+          "query": "carita",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh02a_att:1845",
+              "work_id": "abh02a_att",
+              "row_id": 1845,
+              "paranum": "814",
+              "anchor": "814",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "论藏义注 Abhidhammapiṭaka-Aṭṭhakathā"
+              ]
+            },
+            {
+              "locator": "v4:abh02t_tik:984",
+              "work_id": "abh02t_tik",
+              "row_id": 984,
+              "paranum": "984",
+              "anchor": "984",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh07t_nrf:1564",
+              "work_id": "abh07t_nrf",
+              "row_id": 1564,
+              "paranum": "3",
+              "anchor": "3",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh07t_nrf:1566",
+              "work_id": "abh07t_nrf",
+              "row_id": 1566,
+              "paranum": "1566",
+              "anchor": "1566",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:abh09t_nrf:2077",
+              "work_id": "abh09t_nrf",
+              "row_id": 2077,
+              "paranum": "2077",
+              "anchor": "2077",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "注释传统的习性分类作为解释层，不回写为经藏固定人格。",
+      "resolved_locator_count": 15,
+      "exact_uid_count": 0
+    },
+    {
+      "id": "scholarship.aggregates-personhood",
+      "layer": "scholarship",
+      "uid": null,
+      "queries": [
+        {
+          "language": "zh",
+          "query": "佛教 五蕴 人格 研究",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:e1002n_nrf:0",
+              "work_id": "e1002n_nrf",
+              "row_id": 0,
+              "paranum": "0",
+              "anchor": "0",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "处世格言集 Nīti-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e1004n_nrf:0",
+              "work_id": "e1004n_nrf",
+              "row_id": 0,
+              "paranum": "0",
+              "anchor": "0",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "处世格言集 Nīti-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e1001n_nrf:0",
+              "work_id": "e1001n_nrf",
+              "row_id": 0,
+              "paranum": "0",
+              "anchor": "0",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "处世格言集 Nīti-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e1201n_nrf:0",
+              "work_id": "e1201n_nrf",
+              "row_id": 0,
+              "paranum": "0",
+              "anchor": "0",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "锡兰佛教文献集 Sihaḷa-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:e1215n_nrf:0",
+              "work_id": "e1215n_nrf",
+              "row_id": 0,
+              "paranum": "0",
+              "anchor": "0",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "锡兰佛教文献集 Sihaḷa-Gantha-Saṅgaho"
+              ]
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "query": "Buddhist aggregates personhood scholarship",
+          "result_count": 5,
+          "records": [
+            {
+              "locator": "v4:abh05t_nrf:318",
+              "work_id": "abh05t_nrf",
+              "row_id": 318,
+              "paranum": "193",
+              "anchor": "193",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "论藏复注 Abhidhammapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:s0201a_att:202",
+              "work_id": "s0201a_att",
+              "row_id": 202,
+              "paranum": "7",
+              "anchor": "7",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "义注 Aṭṭhakathā",
+                "经藏义注 Suttapiṭaka-Aṭṭhakathā",
+                "中部义注 Majjhimanikāya-Aṭṭhakathā(Papañcasūdanī)"
+              ]
+            },
+            {
+              "locator": "v4:e1001n_nrf:155",
+              "work_id": "e1001n_nrf",
+              "row_id": 155,
+              "paranum": "155",
+              "anchor": "155",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "藏外典籍 Añña",
+                "处世格言集 Nīti-Gantha-Saṅgaho"
+              ]
+            },
+            {
+              "locator": "v4:vin08t_nrf:1267",
+              "work_id": "vin08t_nrf",
+              "row_id": 1267,
+              "paranum": "1267",
+              "anchor": "1267",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "律藏复注 Vinayapiṭaka-Ṭīkā"
+              ]
+            },
+            {
+              "locator": "v4:vin08t_nrf:1268",
+              "work_id": "vin08t_nrf",
+              "row_id": 1268,
+              "paranum": "1268",
+              "anchor": "1268",
+              "source": "azure:tipitaka/v1",
+              "version": "tipitaka/v1",
+              "source_url": null,
+              "path": [
+                "复注 Ṭīkā",
+                "律藏复注 Vinayapiṭaka-Ṭīkā"
+              ]
+            }
+          ]
+        }
+      ],
+      "statement": "现代研究用于比较与争议标注，不替代巴利原典。",
+      "resolved_locator_count": 10,
+      "exact_uid_count": 0
+    }
+  ],
+  "review_required": [
+    "sn35.23.six-sense-bases",
+    "sn12.23.contact-feeling-craving",
+    "mn18.contact-proliferation",
+    "sn22.59.not-self",
+    "mn10.mindfulness",
+    "dn22.satipatthana",
+    "sn12.20.dependent-origination",
+    "sn22.79.formations",
+    "mn2.mental-defilements",
+    "sn35.95.guard-sense-doors",
+    "an3.65.kalama",
+    "mn21.ill-will",
+    "sn22.47.aggregates-conditions"
+  ],
+  "locator_rule": "Only copy fields from returned Record; null is preferable to an invented V4 locator."
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>巴利人格过程实验室</title>
+  <link rel="stylesheet" href="personhood/lab.css">
+</head>
+<body>
+  <main id="app" aria-live="polite"><p>正在载入实验室…</p></main>
+  <script>
+    // Override with ?api=http://localhost:8099 when the backend is elsewhere.
+    window.SUTTA_PERSONHOOD_API_BASE = new URLSearchParams(location.search).get('api') || 'http://localhost:8099';
+  </script>
+  <script src="personhood/schema.js"></script>
+  <script src="personhood/evidence.js"></script>
+  <script src="personhood/engine.js"></script>
+  <script src="personhood/fixtures.js"></script>
+  <script src="personhood/lab.js"></script>
+  <script>window.renderPersonhoodLab();</script>
+</body>
+</html>

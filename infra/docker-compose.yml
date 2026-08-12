@@ -1,0 +1,17 @@
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8099:8099"
+    environment:
+      PYTHONPATH: /app
+  frontend:
+    image: python:3.12-slim
+    working_dir: /site
+    volumes:
+      - ../frontend:/site:ro
+    command: ["python", "-m", "http.server", "4173", "--bind", "0.0.0.0"]
+    ports:
+      - "4173:4173"

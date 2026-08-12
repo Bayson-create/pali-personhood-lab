@@ -1,0 +1,39 @@
+{
+  "schema_version": "pali-personhood-artifacts/1.0",
+  "policy": "metadata-only; acquire artifacts on demand after license review",
+  "sources": [
+    {
+      "id": "v4-tipitaka",
+      "kind": "canonical-corpus",
+      "url": "https://suttastudyguidestor.blob.core.windows.net/tipitaka-public/tipitaka/v1",
+      "version": "tipitaka/v1",
+      "commit": null,
+      "sha256": "e7c61c24622383d2c1fd2677a9160a41765d30ecdfb099766e2b50aba6d9e662",
+      "license_status": "review-required",
+      "bundled": false,
+      "acquisition": "manual pinned acquisition after license review; never stores credentials"
+    },
+    {
+      "id": "early-buddhist",
+      "kind": "canonical-segment-index",
+      "url": "https://github.com/Bayson-create/Early-Buddhist.git",
+      "version": "main",
+      "commit": "c68dd382ef68546a0fda77e4445967de6c4c1058",
+      "sha256": null,
+      "license_status": "review-required",
+      "bundled": false,
+      "acquisition": "pinned git checkout"
+    },
+    {
+      "id": "suttacentral-bilara-api",
+      "kind": "canonical-api",
+      "url": "https://suttacentral.net/api/bilarasuttas/{uid}/sujato",
+      "version": "live-endpoint; record response hash in audit output",
+      "commit": null,
+      "sha256": null,
+      "license_status": "review-required",
+      "bundled": false,
+      "acquisition": "audited HTTPS request"
+    }
+  ]
+}

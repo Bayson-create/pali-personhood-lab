@@ -1,0 +1,56 @@
+name: Pali Personhood Lab CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install backend dependencies
+        run: python -m pip install -r backend/requirements.txt pytest
+      - name: Python tests
+        env:
+          PYTHONPATH: backend
+        run: python -m pytest -q backend/tests
+      - name: JavaScript syntax and fixtures
+        run: |
+          node --check frontend/personhood/schema.js
+          node --check frontend/personhood/engine.js
+          node --check frontend/personhood/lab.js
+          node scripts/test_frontend.js
+      - name: JSON and secret scan
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          for path in ('shared/schema.json', 'shared/fixtures.json', 'artifacts.lock.json', 'integration-manifest.json'):
+              json.load(open(path, encoding='utf-8'))
+          PY
+          ! grep -RInE '(sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|password\s*=)' --exclude-dir=.git .
+      - name: Integration manifest hash check
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('.')
+          manifest = json.loads((root / 'integration-manifest.json').read_text(encoding='utf-8'))
+          def digest(directory):
+              h = hashlib.sha256()
+              for path in sorted(p for p in directory.rglob('*') if p.is_file()):
+                  h.update(path.relative_to(directory).as_posix().encode())
+                  h.update(path.read_bytes())
+              return h.hexdigest()
+          assert manifest['front_end']['sha256'] == digest(root / 'frontend' / 'personhood')
+          assert manifest['back_end']['sha256'] == digest(root / 'backend' / 'personhood')
+          assert manifest['release'] == '0.1.0'
+          print('manifest hashes ok')
+          PY

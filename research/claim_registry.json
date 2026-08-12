@@ -1,0 +1,22 @@
+{
+  "registry_version": "personhood-claims/1.0.0",
+  "scope": "全 V4 可检索覆盖；经律论原典主张与后期系统化解释分层",
+  "claims": [
+    {"id":"sn35.23.six-sense-bases","layer":"canonical","uid":"sn35.23","queries":{"zh":"一切 六处","en":"the all six sense bases","pali":"sabba salayatana"},"statement":"所谓一切的认知边界由六内处与六外处等所缘条件界定。"},
+    {"id":"sn12.23.contact-feeling-craving","layer":"canonical","uid":"sn12.23","queries":{"zh":"触 受 爱","en":"contact feeling craving","pali":"phassa vedana tanha"},"statement":"触为条件而有受，受为条件而有爱；条件链可在局部止息。"},
+    {"id":"mn18.contact-proliferation","layer":"canonical","uid":"mn18","queries":{"zh":"触 受 想 寻思 戏论","en":"contact feeling perception thought proliferation","pali":"phassa vedana sanna vitakka papanca"},"statement":"MN 18 说明从触、受、想、寻思到戏论的展开。"},
+    {"id":"sn22.59.not-self","layer":"canonical","uid":"sn22.59","queries":{"zh":"五蕴 无我","en":"five aggregates not self","pali":"panca khandha anatta"},"statement":"五蕴应观察为无常、苦、非我，不构成固定人格实体。"},
+    {"id":"mn10.mindfulness","layer":"canonical","uid":"mn10","queries":{"zh":"正念 明觉 身受心法","en":"mindfulness clear comprehension body feelings mind dhammas","pali":"sati sampajanna"},"statement":"四念处与明觉提供对身、受、心、法的观察训练。"},
+    {"id":"dn22.satipatthana","layer":"canonical","uid":"dn22","queries":{"zh":"四念处 生起 灭去","en":"satipatthana arising passing away","pali":"satipatthana samudaya vaya"},"statement":"四念处以生起与灭去观察条件过程，而非测量固定性格。"},
+    {"id":"sn12.20.dependent-origination","layer":"canonical","uid":"sn12.20","queries":{"zh":"缘起 此有故彼有","en":"dependent origination when this is that is","pali":"paticcasamuppada imasmim sati"},"statement":"缘起以条件关系说明过程的出现与止息。"},
+    {"id":"sn22.79.formations","layer":"canonical","uid":"sn22.79","queries":{"zh":"行 蕴 造作","en":"formations aggregate intention","pali":"sankhara cetana"},"statement":"行蕴涉及条件性的造作与意向，不是永恒性格字段。"},
+    {"id":"mn2.mental-defilements","layer":"canonical","uid":"mn2","queries":{"zh":"漏 烦恼 如理作意","en":"mental effluents wise attention","pali":"asava yoniso manasikara"},"statement":"如理作意与不如理作意影响烦恼是否继续流转。"},
+    {"id":"sn35.95.guard-sense-doors","layer":"canonical","uid":"sn35.95","queries":{"zh":"守护 根门 正念","en":"guard sense doors mindfulness","pali":"indriyesu guttadvara sati"},"statement":"根门守护是互动反应前可训练的条件。"},
+    {"id":"an3.65.kalama","layer":"canonical","uid":"an3.65","queries":{"zh":"贪 嗔 痴 离","en":"greed hate delusion abandon","pali":"lobha dosa moha"},"statement":"贪、嗔、痴作为可现起、可观察、可训练改变的条件。"},
+    {"id":"mn21.ill-will","layer":"canonical","uid":"mn21","queries":{"zh":"嗔 恶意 慈心","en":"ill will loving kindness","pali":"byapada metta"},"statement":"敌意与慈心的对治属于训练路径，不等同于固定人格类型。"},
+    {"id":"sn22.47.aggregates-conditions","layer":"canonical","uid":"sn22.47","queries":{"zh":"五取蕴 集因","en":"aggregates conditions arising","pali":"upadanakkhandha samudaya"},"statement":"五取蕴依条件集起并可依条件灭去。"},
+    {"id":"abhidhamma.citta-vithi","layer":"abhidhamma","uid":null,"queries":{"zh":"心路 速行 随眠","en":"citta vithi javana anusaya","pali":"citta vithi javana"},"statement":"阿毗达磨心路与随眠视图作为后期上座部系统化解释单独显示。"},
+    {"id":"commentary.visuddhimagga-habits","layer":"commentary","uid":null,"queries":{"zh":"清净道论 习性 行为","en":"Visuddhimagga temperament habits","pali":"carita"},"statement":"注释传统的习性分类作为解释层，不回写为经藏固定人格。"},
+    {"id":"scholarship.aggregates-personhood","layer":"scholarship","uid":null,"queries":{"zh":"佛教 五蕴 人格 研究","en":"Buddhist aggregates personhood scholarship","pali":""},"statement":"现代研究用于比较与争议标注，不替代巴利原典。"}
+  ]
+}
