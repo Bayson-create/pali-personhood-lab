@@ -52,8 +52,12 @@ jobs:
                   else:
                       h.update(path.read_bytes())
               return h.hexdigest()
-          assert manifest['front_end']['sha256'] == digest(root / 'frontend' / 'personhood')
-          assert manifest['back_end']['sha256'] == digest(root / 'backend' / 'personhood')
+          computed_front = digest(root / 'frontend' / 'personhood')
+          computed_back = digest(root / 'backend' / 'personhood')
+          print('manifest front/back:', manifest['front_end']['sha256'], manifest['back_end']['sha256'])
+          print('computed front/back:', computed_front, computed_back)
+          assert manifest['front_end']['sha256'] == computed_front
+          assert manifest['back_end']['sha256'] == computed_back
           assert manifest['release'] == '0.2.0-dev'
           print('manifest hashes ok')
           PY
