@@ -45,7 +45,7 @@ jobs:
           manifest = json.loads((root / 'integration-manifest.json').read_text(encoding='utf-8'))
           def digest(directory):
               h = hashlib.sha256()
-              for path in sorted(p for p in directory.rglob('*') if p.is_file()):
+              for path in sorted(p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'):
                   h.update(path.relative_to(directory).as_posix().encode())
                   h.update(path.read_bytes())
               return h.hexdigest()

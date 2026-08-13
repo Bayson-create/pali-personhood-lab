@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def sha256_tree(directory: Path) -> str:
     digest = hashlib.sha256()
-    for path in sorted(p for p in directory.rglob('*') if p.is_file()):
+    for path in sorted(p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'):
         digest.update(path.relative_to(directory).as_posix().encode())
         digest.update(path.read_bytes())
     return digest.hexdigest()
