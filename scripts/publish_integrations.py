@@ -29,6 +29,7 @@ def main() -> None:
         (root / 'backend' / 'personhood', args.backend_target / 'personhood'),
         (root / 'backend' / 'api.py', args.backend_target / 'personhood_standalone_api.py'),
         (root / 'research' / 'PERSONHOOD_EVIDENCE_AUDIT.json', args.backend_target / 'docs' / 'PERSONHOOD_EVIDENCE_AUDIT.json'),
+        (root / 'research' / 'PERSONHOOD_EVIDENCE_AUDIT.json', args.frontend_target / 'docs' / 'personhood' / 'evidence-audit-summary.json'),
     ]
     if args.dry_run:
         for source, destination in operations:

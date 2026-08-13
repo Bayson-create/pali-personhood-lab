@@ -17,6 +17,9 @@
   <script src="personhood/engine.js"></script>
   <script src="personhood/fixtures.js"></script>
   <script src="personhood/lab.js"></script>
-  <script>window.renderPersonhoodLab();</script>
+  <script>
+    if (location.hash === '#/personhood/research') window.renderPersonhoodResearch();
+    else window.renderPersonhoodLab();
+  </script>
 </body>
 </html>

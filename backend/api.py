@@ -1,4 +1,4 @@
-"""Standalone, non-persistent FastAPI service for the personhood lab."""
+"""Standalone, evidence-audited FastAPI service for the personhood lab."""
 from __future__ import annotations
 
 import json
@@ -27,6 +27,16 @@ class EpisodeRequest(BaseModel):
 
 class ExplainRequest(EpisodeRequest):
     question: str = Field(default="请解释这条条件过程。", min_length=1, max_length=2000)
+
+
+class CaseSaveRequest(BaseModel):
+    """Standalone service deliberately exposes no account persistence.
+
+    The contract remains available so the static client can report a truthful
+    degraded state instead of silently pretending a local save is durable.
+    """
+    title: str = Field(default="连续互动案例", min_length=1, max_length=200)
+    snapshot: dict[str, Any]
 
 
 app = FastAPI(title="Pali Personhood Lab API", version="0.1.0")
@@ -84,3 +94,8 @@ def evidence() -> dict[str, Any]:
 def explain(payload: ExplainRequest) -> dict[str, Any]:
     trace = _run(payload)
     return {"trace": trace, "explanation": _fallback(trace, payload.question), "persisted": False}
+
+
+@app.post("/api/personhood/cases", status_code=501)
+def cases_unavailable(_: CaseSaveRequest) -> None:
+    raise HTTPException(status_code=501, detail="独立预览服务不保存账户案例；请使用本地导出或集成后的账户服务")
