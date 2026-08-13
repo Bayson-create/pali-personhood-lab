@@ -47,7 +47,7 @@ jobs:
               h = hashlib.sha256()
               prefix = directory.relative_to(root).as_posix()
               names = subprocess.check_output(['git', 'ls-files', '--', prefix], text=True).splitlines()
-              for name in sorted(n for n in names if '__pycache__' not in Path(n).parts and Path(n).suffix != '.pyc'):
+              for name in sorted((n for n in names if '__pycache__' not in Path(n).parts and Path(n).suffix != '.pyc'), key=lambda n: Path(n).relative_to(directory).as_posix()):
                   path = root / name
                   h.update(Path(name).relative_to(directory).as_posix().encode())
                   if path.suffix.lower() in {'.js', '.json', '.css', '.md', '.py', '.html'}:

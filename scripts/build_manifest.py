@@ -19,7 +19,7 @@ def sha256_tree(directory: Path) -> str:
         paths = [root / name for name in names if '__pycache__' not in Path(name).parts and Path(name).suffix != '.pyc']
     except (OSError, subprocess.CalledProcessError):
         paths = [p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc']
-    for path in sorted(paths):
+    for path in sorted(paths, key=lambda item: item.relative_to(directory).as_posix()):
         digest.update(path.relative_to(directory).as_posix().encode())
         # GitHub Actions checks out text files with LF while Windows worktrees
         # may contain CRLF. Hash the canonical text representation so the
