@@ -13,7 +13,13 @@ def sha256_tree(directory: Path) -> str:
     digest = hashlib.sha256()
     for path in sorted(p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'):
         digest.update(path.relative_to(directory).as_posix().encode())
-        digest.update(path.read_bytes())
+        # GitHub Actions checks out text files with LF while Windows worktrees
+        # may contain CRLF. Hash the canonical text representation so the
+        # release manifest is portable across both environments.
+        if path.suffix.lower() in {'.js', '.json', '.css', '.md', '.py', '.html'}:
+            digest.update(path.read_text(encoding='utf-8').replace('\r\n', '\n').encode('utf-8'))
+        else:
+            digest.update(path.read_bytes())
     return digest.hexdigest()
 
 
