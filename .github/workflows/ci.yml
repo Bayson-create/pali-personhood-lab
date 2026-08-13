@@ -51,6 +51,6 @@ jobs:
               return h.hexdigest()
           assert manifest['front_end']['sha256'] == digest(root / 'frontend' / 'personhood')
           assert manifest['back_end']['sha256'] == digest(root / 'backend' / 'personhood')
-          assert manifest['release'] == '0.1.0'
+          assert manifest['release'] == '0.2.0-dev'
           print('manifest hashes ok')
           PY
