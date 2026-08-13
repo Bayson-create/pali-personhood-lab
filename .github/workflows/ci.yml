@@ -39,14 +39,17 @@ jobs:
       - name: Integration manifest hash check
         run: |
           python - <<'PY'
-          import hashlib, json
+          import hashlib, json, subprocess
           from pathlib import Path
           root = Path('.')
           manifest = json.loads((root / 'integration-manifest.json').read_text(encoding='utf-8'))
           def digest(directory):
               h = hashlib.sha256()
-              for path in sorted(p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'):
-                  h.update(path.relative_to(directory).as_posix().encode())
+              prefix = directory.relative_to(root).as_posix()
+              names = subprocess.check_output(['git', 'ls-files', '--', prefix], text=True).splitlines()
+              for name in sorted(n for n in names if '__pycache__' not in Path(n).parts and Path(n).suffix != '.pyc'):
+                  path = root / name
+                  h.update(Path(name).relative_to(directory).as_posix().encode())
                   if path.suffix.lower() in {'.js', '.json', '.css', '.md', '.py', '.html'}:
                       h.update(path.read_text(encoding='utf-8').replace('\r\n', '\n').encode('utf-8'))
                   else:

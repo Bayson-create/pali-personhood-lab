@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,7 +12,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def sha256_tree(directory: Path) -> str:
     digest = hashlib.sha256()
-    for path in sorted(p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'):
+    root = ROOT
+    prefix = directory.relative_to(root).as_posix()
+    try:
+        names = subprocess.check_output(['git', 'ls-files', '--', prefix], cwd=root, text=True).splitlines()
+        paths = [root / name for name in names if '__pycache__' not in Path(name).parts and Path(name).suffix != '.pyc']
+    except (OSError, subprocess.CalledProcessError):
+        paths = [p for p in directory.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc']
+    for path in sorted(paths):
         digest.update(path.relative_to(directory).as_posix().encode())
         # GitHub Actions checks out text files with LF while Windows worktrees
         # may contain CRLF. Hash the canonical text representation so the
